@@ -8,6 +8,7 @@ This Dockerfile is based on the official Wordpress image but adds some features 
 - memcached
 - phpMyAdmin
 - Variables: \
+`WP_MEMORY_LIMIT: 512M` \
 `PHP_MEMORY_LIMIT: 512M` \
 `PHP_UPLOAD_MAX_FILESIZE: 1024M` \
 `PHP_POST_MAX_SIZE: 1024M` \
